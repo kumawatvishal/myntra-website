@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Assistant", sans-serif;
+   
+
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 4px 12px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: -10px;
+}
+.logo{
+    width: 53px;
+    height: 20px;
+    padding-top: 20px;
+    background-image: url(images\ myntra/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    background-position: -462px 0;
+    margin-left: 40px;
+   
+}
+nav{
+    width: 515px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    font-weight: bold;
+    color: rgb(40, 44, 63);
+}
+.search-box{
+    width: 300px;
+    margin-left: 40px;
+    background-color: #f5f5f6;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+.search-box input{
+    background-color: transparent;
+    border: none;
+    flex-grow: 1;
+}
+.search-box input:focus {
+    border: none;
+    outline: none;
+}
+.icons-tray{
+    width: 200px;
+    margin-left: 10px;
+   display: flex;
+   justify-content: space-around;
+}
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.image-div{
+    width: 100%;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+h1{
+    color: #3e4152;
+    margin: 50px 10px 0px 30px;
+    
+}
+.image-holder{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+.images-banners{
+    width: 263PX;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+   
+}
+h2{
+    color: #3e4152;
+    margin: 50px 0px 10px 30px;
+    font-size: 30px;
+    letter-spacing: .15em;
+}
+.toimages{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.category-bag{
+    width: 165px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;  
+}
+.explore-brands{
+    width: 204px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.luxe-images{
+    width: 165px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px; 
+}
+.indian-wear{
+    width: 204px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sports-wear{
+    width: 204px;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.bottom-image{
+    width: 100%;
+    margin-top: 20px;
+}
+.footercontainer{
+    width: 1080px;
+    margin: auto;
+}
+.firstcontain{
+    width: 175px;
+    display: flex;
+    float: left;
+    padding-left: 20px;
+
+}
+.online-shop{
+    width: 175px;
+    font-size: 12PX;
+    font-weight: bold;
+    padding-top: 40px;  
+}
+.shop-tabs{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: #696b79;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.secondcontain{
+    width: 162px;
+    display: flex;
+    float: left;
+    /* padding-right: 20px; */
+}
+.custom-poli{
+    width: 100%;
+    font-size: 12PX;
+    font-weight: bold;
+    padding-top: 40px;
+}
+.CUSTOM-tabs{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    color: #696b79;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+.thirdcontain{
+    width: 380px;
+    display: flex;
+    float: left;
+}
+.experience{
+    width: 100%;
+    font-size: 14PX;
+    font-weight: bold;
+    padding-top: 40px;
+    color: #282c3f;
+    
+    
+}
+.expi-image{
+    width: 282px;
+    display: flex;
+    padding-top: 30px;
+    
+}
+.keeptouch{
+    width: 360px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.social-icons{
+    width: 20px;
+    height: 21px;
+    display: flex;
+    float: left;
+    margin: 10px
+    
+}
+.four-contain{
+    width: 280px;
+    display: flex;
+    float: left;
+    flex-direction: column;
+   
+}
+.image-policies{
+    width: 47px;
+    height: 40px;
+    float: left;
+    display: flex;
+    padding-top: 40px;
+    padding-right: 10px;
+    
+}
+.text-poly{
+    width: 200px;
+    display: flex;
+    padding-top: 40px;
+}
+.popular-search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.popular-search hr{
+    color: #eaeaec;
+    flex-grow: 1;
+}
+hr{
+    margin-top: 20px;
+    color: #eaeaec;
+}
+.searchpopular-title{
+    
+    background-color: #fafbfc;
+    padding-right: 10px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+.popularsearch-para{
+    width: 100%;
+    display: flex;
+    color: #94969f;
+}
+.contactus-section{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    
+}
+.section{
+    width: 100%;
+    display: flex;
+    color: #696b79;
+  
+}
+.Regi-address{
+    width: 100%;
+    color: 282c3f;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+.address{
+    width: 70%;
+    display: flex;
+    color: #94969f;
+    padding-top: 30px;
+
+}
+.telno{
+    width: 30%;
+    padding-left: 100%;
+    color: #94969f;
+    padding-top: 20%;
+ 
+}
+.description-container{
+    width: 100%;
+    color: #535766;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.des-contain{
+    font-size: 14px;
+    padding-top: 10px;
+    color: #94969f;
+}
+.list>ol>li{
+    width: 100%;
+    color: #94969f;
+    font-size: 14px;
+    margin-top: 20px;
+}
+h4{
+    color: #535766;
+    padding-top: 20px;
+}
+.insider-contain{
+    color: #94969f;
+    font-size: 14px;
+    padding-top: 10px;
+}
+h5{
+    color: #535766;
+    padding-top: 20px;
+}
+.menpage-images{
+    width: 100%;
+    margin-top: 10px;
+}
+.coupon-code{
+    width: 100%;
+    display: flex;
+}
+.image-1{
+    width: 631px;
+    display: flex;
+}
+.img-contain{
+    width: 100%;
+    display: flex;
+}
+.image-block{
+    width: 190px;
+    display: flex;
+    
+}
+.color-images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.womenimage-contain{
+    width: 100%;
+    display: flex;
+}
+.women-images{
+    width: 180px;
+    display: flex;
+}
+.womencolor-images{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.womenimg-contain{
+    width: 240px;
+    display: flex;
+   
+}
+.homeliving-first{
+    width: 100%;
+}
+.image-textcontain{
+    width: 910px;
+
+}
+.nicetosee-text{
+    width: 842px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #3e4152;
+    margin: 50px 0px 10px 15px;
+}
+.home-imagecontain{
+    width: 380px;
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    float: left;
+    padding-right: 40px;
+
+}
+/* .nev containtext{
+    width: 300px;
+
+} */
+.nevcontain-Headings{
+    width: 100%;
+    color: #3e4152;
+    display: block;
+    padding-left: 50px;
+
+}
+.nev-containitems{
+    width: 100%;
+    display: block;
+    padding-left: 50px;
+    
+}
+.get-inspire{
+    width: 100%;
+}
+.image-card{
+    width: 100%;
+    display: flex;
+    
+}
+.image-hold{
+    width: 373px;
+    display: flex;
+    margin: auto;
+}
+.brands-images{
+    width: 220px;
+    display: flex;
+    margin: auto;
+   padding-bottom: 50px;
+}
